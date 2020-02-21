@@ -21,7 +21,7 @@ def api2():
 def api1():
     string = request.args.get('string')
     number = request.args.get('number')
-    out_dict = {}
+    #out_dict = {}
     li = list(chunkstring(string[::-1], int(number)))
     li = li[::-1]
     print(li)

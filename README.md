@@ -17,7 +17,7 @@ number=() -> we have to specify the chunk size for eg. number=8
 ```
 localhost:5000/api1?string=abrakadabra&number=8
 ```
-WARNING: Here string and number should be passed as it is and should not be changed to anything else like string->strings or number->numbers
+### WARNING: Here string and number should be passed as it is and should not be changed to anything else like string->strings or number->numbers
 
 #### output:
 ```
@@ -49,3 +49,4 @@ localhost:5000/api2?string=1,a,c,b,c,1
   "c": 2
 }
 ```
+### WARNING: Here string should be passed as it is and should not be changed to anything else like string->strings also string should be strictly comma separated.
